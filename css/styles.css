@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    /* Increased width to accommodate content */
+    height: auto;
+    /* Allow height to adjust based on content */
+    margin: 15px auto;
+    color: white;
+    padding: 10px;
+    /* Add some padding inside the box */
+    display: flex;
+    /* Use flexbox for internal content alignment */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100px;
+    /* Constrain image width */
+    height: auto;
+    margin-bottom: 10px;
+    /* Space between image and text */
+}
